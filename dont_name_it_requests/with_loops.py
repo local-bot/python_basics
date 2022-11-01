@@ -13,7 +13,6 @@ r = requests.get(url, headers=headers)
 
 json_data = r.json()
 
-# complete Data
 '''
 json_data = r.json()['meta'] # filters meta
 print(json.dumps(json_data, indent =2))
