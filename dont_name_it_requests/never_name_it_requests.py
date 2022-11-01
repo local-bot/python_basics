@@ -6,7 +6,7 @@ import json
 
 url = "https://api.corona-zahlen.org/germany"
 headers = {
-    'User-agent'  : 'Sobrero Browser'
+    'User-agent'  : 'Sombrero Browser'
     }
 
 r = requests.get(url, headers=headers)
