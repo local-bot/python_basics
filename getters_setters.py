@@ -20,6 +20,6 @@ me = Python_Noob()
   
 me.set_age(99) 
   
-print(f"get_age method get_age will now show age: {me.get_age()}") 
+print(f"get_age method will now show age: {me.get_age()}") 
   
 print(f"new_class.age also shows: {me._age}")
