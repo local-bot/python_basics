@@ -6,7 +6,7 @@ import string
 passwd = ''
 
 for i in range(35):
-    passwd += passwd.join(string.printable[random.randint(1,70)])
+    passwd += string.printable[random.randint(1,70)]
 
 
 print(passwd)
